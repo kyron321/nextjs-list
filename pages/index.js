@@ -1,5 +1,12 @@
+import Footer from "../comps/footer"
+import Navbar from "../comps/Navbar"
+
 export default function Home(){
   return (
-    <div>Home Page</div>
+    <div>
+      <Navbar/>
+      Home Page
+      <Footer/>
+    </div>
   )
 }
