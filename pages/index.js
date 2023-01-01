@@ -5,10 +5,10 @@ import Navbar from "../comps/Navbar"
 export default function Home(){
   return (
     <div>
-      <Navbar/>
+
       <h1>Home Page</h1>
       <Link href = "/ninjas">See Ninja Listing</Link>
-      <Footer/>
+
     </div>
   )
 }
